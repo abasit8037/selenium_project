@@ -20,7 +20,8 @@ def mycred():
         ('mybash29@gmail.com', 'Test!@12'),
         ('abubakrmuhammad271@gmail.com', 'abubakr1'),
         ('abdulbasit8037@gmail.com','karachi!@12'),
-        ('mirza.majid777@gmail.com','K@rachi123')
+        ('mirza.majid777@gmail.com','K@rachi123'),
+        ('azak7700@gmail.com','Azhar267@')
     ]
 
 @pytest.mark.parametrize("username,password", mycred())
