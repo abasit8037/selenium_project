@@ -18,7 +18,9 @@ def driver():
 def mycred():
     return [
         ('mybash29@gmail.com', 'Test!@12'),
-        ('abubakrmuhammad271@gmail.com', 'abubakr1')
+        ('abubakrmuhammad271@gmail.com', 'abubakr1'),
+        ('abdulbasit8037@gmail.com','karachi!@12'),
+        ('mirza.majid777@gmail.com','K@rachi123')
     ]
 
 @pytest.mark.parametrize("username,password", mycred())
